@@ -5,8 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "release": "sh ./build/bin/release.sh",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "vue-cli-service s3-deploy",
+    "release": "sh ./build/bin/release.sh"
   },
   "dependencies": {
     "aws-sdk": "^2.408.0",
